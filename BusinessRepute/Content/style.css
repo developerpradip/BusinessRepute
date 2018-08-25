@@ -1,0 +1,1131 @@
+body {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    padding: 10px 0;
+    background: #91cbe1;
+    width: 100%;
+    border-radius:10px;
+}
+
+    header h3 {
+        margin: 0 0 0px 0;
+        color: #333;
+    }
+
+.brand {
+    float: right;
+    width: 100%;
+    
+}
+
+    .brand img {
+        border-radius: 40px;
+    }
+
+/* ***************common***********   */navbar-default
+error-display {
+    display: compact;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+.menu {
+color:#680057;
+font-size:18px;
+font: bold;
+
+}
+
+.nav-item {
+color:#680057;
+}
+
+.navbar-brand{
+  height:60px;
+}
+
+
+.navbar-default {
+  color:red;
+}
+
+/* field validation*/
+/* styles for validation helpers */
+.field-validation-error {
+    color: red;
+    font-weight: bold;
+     font-size: 10px;
+}
+
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+.accept-btn {
+    display: block;
+    background: #2282d4;
+    color: #fff !important;
+    text-transform: uppercase;
+    padding: 12px;
+    margin: 0 -10px;
+    position:static;
+    flex-align:stretch;
+    bottom: 0;
+    width: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 0 0 10px 10px;
+}
+
+
+/* start..... ortho calc page************** start */
+.treatment-cost-total{
+    background: #ffffff;
+    width: 98%;
+    margin: 10px 0 0px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius:10px;
+    text-align:center;
+    border: 1px solid #000;
+}
+
+.patient-details {
+    float: left;
+    background: #efeeef;
+    width: 100%;
+    padding: 0px 0 10px 5px;
+    border-radius:10px;
+}
+
+/*patient-top-field*/
+.patient-top-field .form-group {
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+}
+
+.patient-top-field label {
+    float: left;
+    text-align: right;
+    padding: 5px 5px 0 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.patient-top-field input[type="text"], .patient-top-field input[type="email"] .patient-top-field select, .patient-top-field input[type="number"] , .patient-top-field input[type="phone"]{
+    margin: 0px 5px 5px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    width:150px;
+}
+
+.patient-top-field input[type="email"]  {
+    margin: 0px 5px 5px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    width:150px;
+}
+
+/* tabs   */
+.payment-option {
+    float: left;
+    width: 100%;
+    background: #91cbe1;
+    padding: 10px 10px 10px 0px;
+}
+
+
+
+.payment-option input[type="button"] {
+    min-width: 100px;
+    float:left;
+    text-align:center;
+}
+
+.tab-right {
+    float: left;
+    width: 100%;
+    padding: 20px 0 0;
+}
+
+    .tab-right ul {
+        float: left;
+        width: auto;
+        padding: 0;
+        list-style: none;
+        margin: 0 0 -1px 0;
+    }
+
+        .tab-right ul li {
+            float: left;
+            margin: 0 2px 0 0;
+        }
+
+            .tab-right ul li a {
+                float: left;
+                padding: 8px 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px 5px 0 0;
+                color: #333;
+                font-weight: bold;
+                font-size:14px;
+            }
+
+            .tab-right ul li.active a {
+                color: brown;
+                /*background: #91cbe1;*/
+                background: #91cbe1;
+            }
+
+.addition-option {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 10px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    color: #333;
+    text-align: center;
+}
+.patient-field {
+    background: #fff;
+    border: 1px solid #ccc;
+    width: 97%;
+}
+
+.patient-field .form-group {
+    margin: 5px 0px 0px 5px;
+    padding: 0px 0px 10px 5px;
+    display: inline-block;
+}
+
+
+
+.patient-addl-field .form-group {
+    margin: 5px 0px 0px 5px;
+    padding: 0px 0px 10px 5px;
+    display:inline-block;
+}
+
+
+
+.patient-field label {
+    float: left;
+    text-align: left;
+    padding: 5px 5px 0 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.patient-field input[type="text"], .patient-field input[type="number"]  {
+    float: right;
+    background: #fff;
+    padding-bottom: 5px;
+
+    font-weight: bold;
+    color: blue;
+}
+
+.patient-field select {
+    float: left;
+    background: #fff;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: blue;
+}
+
+.tab-detail h3.h3 {
+    margin: 10px 0px 10px;
+    padding: 5px 5px 5px;
+    text-align: center;
+    border-top: 1px solid #c7edfb;
+    border-bottom: 1px solid #c7edfb;
+    color: #fff;
+    width: 97%;
+}
+
+.tab-detail h4 {
+    text-align: center;
+}
+
+    .tab-detail h4 span {
+        background: #91cbe1;
+        margin: 4px 4px 4px 2px;
+        display: inline-block;
+        border-radius: 5px;
+        color: #fff;
+        width: 25%;
+        text-align: center;
+        font-size: 20px;
+    }
+
+.summary-field {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px ;
+    width: 98%;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 225px;
+    padding-bottom:20px;
+}
+.summary-field-all {
+    background: #fff;
+    border: 1px solid #000;
+    border-radius: 10px ;
+    width: 98%;
+    font-weight: bold;
+    font-size: 12px;
+    min-height: 175px;
+    padding-bottom:20px;
+}
+
+.summary-field-all .form-group {
+    margin: 5px 5px 5px 20px;
+    padding: 5px 5px 5px 5px;
+    display:inline-block;
+}
+.summary-field-all label {
+    float: left;
+    text-align: center;
+    padding: 2px 2px 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    display:inline-block;
+}
+
+.summary-field-all .heading {
+    
+    font-size: 20px;
+    font-weight: bold;
+    display:block;
+    color:black;
+}
+
+.summary-field-all input[type="text"], .summary-field input[type="number"]  {
+    float: right;
+    background: #fff;
+    padding-bottom: 5px;
+    display:inline-block;
+    font-weight: bold;
+    color: blue;
+    font-size: 12px;
+}
+
+.charges{
+    background: #ffffff;
+    text-align:center;
+    width: 90%;
+    padding-left:50px;
+}
+
+
+.summary-field .form-group {
+    margin: 5px 5px 5px 20px;
+    padding: 5px 5px 5px 5px;
+    display:inline-block;
+}
+
+.summary-field label {
+    float: left;
+    text-align: center;
+    padding: 5px 5px 0 0;
+    font-size: 12px;
+    font-weight: bold;
+    display:inline-block;
+}
+
+.summary-field input[type="text"], .summary-field input[type="number"]  {
+    float: right;
+    background: #fff;
+    padding-bottom: 5px;
+    display:inline-block;
+    font-weight: bold;
+    color: blue;
+    font-size: 12px;
+}
+
+.summary-field select {
+    float: right;
+    background: #fff;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: blue;
+}
+
+/*  payment options*/
+
+.payment-type {
+    float: right;
+    width: 97%;
+    background: #fff;
+    padding-left: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid #eaeaea;
+    min-height: 240px;
+    text-align: center;
+    position: relative;
+    
+    border-radius: 10px;
+}
+
+.payment-type-single {
+    float: left;
+    width: 97%;
+    background: #fff;
+    padding-top: 10px;
+    border: 1px solid #000;
+    min-height: 180px;
+    text-align: center;
+    /*position: relative;*/
+    margin: 2px ;
+    border-radius: 10px;
+    font: bolder;
+}
+
+.payment-type-single input[type="text"], .payment-type-single input[type="number"]  {
+    float: right;
+    background: #fff;
+    padding-bottom: 5px;
+    display:inline-block;
+    font-weight: bold;
+    color: blue;
+    font-size: 12px;
+}
+
+.payment-type-single select {
+    float: right;
+    background: #fff;
+    padding-bottom: 5px;
+    font-weight: bold;
+    color: blue;
+}
+
+
+
+.pay-title {
+    text-align: center;
+    padding: 0 0 0px 0;
+}
+
+    .pay-title h3 {
+        margin-top: 0;
+        font-size: 20px;
+        text-transform: uppercase;
+        color: #2282d4;
+        font:bold;
+    }
+
+.opt-value .price {
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+
+
+.opt-value {
+    padding: 0 0 0px 0;
+}
+
+
+.payment-range {
+    float: left;
+    width: 98%;
+    padding: 10px;
+    margin-top: 20px;
+    /*background: #efeeef;*/
+    background: #ffffff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    min-height:180px;
+}
+
+    .payment-range .slider.slider-horizontal {
+        width: 80%;
+        margin: 20px 0;
+    }
+
+        .payment-range .slider.slider-horizontal .slider-selection {
+            background: #2282d4;
+        }
+
+    .payment-range .glyphicon-lock {
+        margin: 0 0 0 20px;
+        color: #000;
+        font-size: 25px;
+    }
+
+
+    .payment-range .form-control {
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+    font-weight: bold;
+    /*font-size:8px;*/
+    color: blue;
+}
+
+.additional-field label {
+    display: block;
+}
+
+.additional-field h5 {
+    color: #2282d4;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    .additional-field h5 span {
+        margin-left: 15px;
+    }
+
+    .additional-field input[type="text"] {
+    max-width: 100%;
+}
+/***************end ortho calc page ******** end*/
+
+
+/***************start Monthly Report ******** start */
+.report-data {
+    text-align: left;
+}
+
+
+    .report-data .row {
+        border: 0.1px;
+        border-color: black;
+        border-style: solid;
+        font: normal;
+    }
+
+        .report-data .row .col {
+            border: 1px;
+            border-color: red;
+            border-style: solid;
+        }
+
+    .report-data label {
+        /*background: #2282d4;*/
+        padding: 0px 5px 5px 5px;
+    }
+
+/***************end Monthly Report ******** end*/
+
+
+.modal-body .select {
+    margin: 0px 5px 5px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color:red;
+    width:130px;
+}
+
+/************* Start Login Form   *** Start*/
+.login-form {
+    width: 300px;
+    margin: 50px auto;
+}
+
+.login-form input[type="email"]{
+    margin: 0px 5px 5px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color:blue;
+    width:130px;
+}
+
+    .login-form form {
+        margin-bottom: 15px;
+        background: #f7f7f7;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+        padding: 30px;
+    }
+
+    .login-form h2 {
+        margin: 0 0 15px;
+    }
+
+    .login-form input[type="text"], .login-form input[type="password"] {
+    margin: 0px 3px 3px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color:blue;
+    width:130px;
+}
+
+.login-form .form-group {
+    margin: 3px 0px 0px 3px;
+    padding: 0px 0px 5px 5px;
+    display: inline-block;
+    font-weight: normal;
+    color: blue;
+    font-size:14px;
+}
+.btn {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/************* End Login Form   *** End*/
+
+/****** Monthly Report start***** */
+
+.heading {
+    vertical-align: central;
+    margin: 5px -15px 5px 5px;
+    font: bold;
+    font-size:12px;
+}
+
+.normaltext {
+    vertical-align: central;
+    margin: 5px -15px 5px 5px;
+    font-size:10px;
+}
+
+.grouptotal {
+    color: blue;
+    max-width: 400px;
+}
+
+.finaltotal {
+    color: red;
+    max-width: 400px;
+}
+
+.col-sm-11 {
+    text-align: right;
+}
+
+
+/****** Monthly Report END***** */
+
+#tab1.active, #tab2.active, #tab3.active, #tab4.active, #tab5.active {
+    display: block;
+}
+
+#tab1, #tab2, #tab3, #tab4, #tab5, #tab-content .line-link, .mobile-show {
+    display: none;
+}
+
+@media (max-width:660px) {
+
+    .payment-range .slider.slider-horizontal {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+
+
+    .additional-field .right {
+        float: right !important;
+    }
+
+    .mobile-hide {
+        display: none;
+    }
+
+    .mobile-show {
+        display: block;
+    }
+
+    .brand {
+        float: left;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+/***** start register form start  */
+
+/* start..... ortho calc page************** start */
+.register-form {
+    float: left;
+    background: #efeeef;
+    width: 100%;
+    padding: 0px 0 5px 10px;
+    border-radius:10px;
+}
+
+/*register-form-field*/
+
+.register-form-field {
+    display: inline-block;
+    margin: 5px 5px 5px 5px;
+    padding: 0px 0px 15px 5px;
+    width: 99%;
+    background: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.register-form-field .form-group {
+    display: inline-block;
+    margin: 5px 0px 0px 0px;
+}
+
+.register-form-field label {
+    float: left;
+    color:black;
+    text-align: right;
+    padding: 5px 5px 0 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.register-form-field input[type="text"], .register-form-field input[type="email"], .register-form-field input[type="password"], .register-form-field select, .register-form-field input[type="number"] {
+    margin: 0px 5px 5px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 14px;
+    /*font-weight: bold;*/
+    color:blue;
+    width:130px;
+}
+
+.register-form-field input[type="email"], .register-form-field input[type="file"]{
+    margin: 0px 5px 5px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    color:blue;
+    width:130px;
+}
+.patient-top-field input[type="email"]  {
+    margin: 0px 5px 5px 0px;
+    float: left;
+    max-width: 100%;
+    background: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    width:150px;
+}
+.field-name {
+    display: compact;
+    margin: 5px 0px 0px 0px;
+    /*width: 100%;*/
+}
+
+    .field-name .form-group {
+        display: inline-block;
+        margin: 5px 0px 0px 0px;
+        /*width: 100%;*/
+    }
+
+    .field-name label {
+        margin: 5px 0;
+    }
+
+    .field-name input[type="text"] {
+        margin: 5px 0;
+        font-weight: bold;
+        color: blue;
+
+    }
+
+    .field-name input[type="textarea"] {
+        margin: 5px 0;
+        font-weight: bold;
+        color: blue;
+        width:300px;
+
+    }
+
+    .field-name text {
+        margin: 5px 0;
+        font-weight: bold;
+        color: blue;
+    }
+
+    .field-name .form-control {
+        margin: 5px 0;
+        font-weight: bold;
+        color: blue;
+        font-size:10px;
+    }
+
+    .field-name .TextBox {
+        margin: 5px 0;
+        font-weight: bold;
+        color: blue;
+
+    }
+
+.field-set {
+    padding: 5px;
+    background: #fff;
+    border: 1px solid #ccc;
+    color: blue;
+}
+/***** end register form end */
+
+/**/
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.border-top-gray {
+    border-top-color: #adb5bd;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+.lh-condensed {
+    line-height: 1.25;
+}
+
+
+/* start Home page start*/
+/*slider*/
+
+
+.carousel {
+    position: relative;
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-item {
+    position: relative;
+    display: none;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    transition: -webkit-transform .6s ease;
+    transition: transform .6s ease;
+    transition: transform .6s ease,-webkit-transform .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+@media screen and (prefers-reduced-motion:reduce) {
+    .carousel-item {
+        transition: none;
+    }
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    display: block;
+}
+
+.carousel-item-next, .carousel-item-prev {
+    position: absolute;
+    top: 0;
+}
+
+    .carousel-item-next.carousel-item-left, .carousel-item-prev.carousel-item-right {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+    .carousel-item-next.carousel-item-left,.carousel-item-prev.carousel-item-right;
+
+{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+}
+
+.active.carousel-item-right, .carousel-item-next {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+    .active.carousel-item-right,.carousel-item-next;
+
+{
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
+
+}
+
+.active.carousel-item-left, .carousel-item-prev {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+    .active.carousel-item-left,.carousel-item-prev;
+
+{
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+}
+
+.carousel-fade .carousel-item {
+    opacity: 0;
+    transition-duration: .6s;
+    transition-property: opacity;
+}
+
+    .carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
+        opacity: 1;
+    }
+
+.carousel-fade .active.carousel-item-left, .carousel-fade .active.carousel-item-right {
+    opacity: 0;
+}
+
+.carousel-fade .active.carousel-item-left, .carousel-fade .active.carousel-item-prev, .carousel-fade .carousel-item-next, .carousel-fade .carousel-item-prev, .carousel-fade .carousel-item.active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+@supports ((-webkit-transform-style:preserve-3d) or (transform-style:preserve-3d)) {
+    .carousel-fade .active.carousel-item-left,.carousel-fade .active.carousel-item-prev,.carousel-fade .carousel-item-next,.carousel-fade .carousel-item-prev,.carousel-fade .carousel-item.active;
+
+{
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 15%;
+    color: #fff;
+    text-align: center;
+    opacity: .5;
+}
+
+    .carousel-control-next:focus, .carousel-control-next:hover, .carousel-control-prev:focus, .carousel-control-prev:hover {
+        color: #fff;
+        text-decoration: none;
+        outline: 0;
+        opacity: .9;
+    }
+
+.carousel-control-prev {
+    left: 0;
+}
+
+.carousel-control-next {
+    right: 0;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='https://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+
+    .carousel-indicators li {
+        position: relative;
+        -ms-flex: 0 1 auto;
+        flex: 0 1 auto;
+        width: 30px;
+        height: 3px;
+        margin-right: 3px;
+        margin-left: 3px;
+        text-indent: -999px;
+        cursor: pointer;
+        background-color: rgba(255,255,255,.5);
+    }
+
+        .carousel-indicators li::before {
+            position: absolute;
+            top: -10px;
+            left: 0;
+            display: inline-block;
+            width: 100%;
+            height: 10px;
+            content: "";
+        }
+
+        .carousel-indicators li::after {
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            display: inline-block;
+            width: 100%;
+            height: 10px;
+            content: "";
+        }
+
+    .carousel-indicators .active {
+        background-color: #fff;
+    }
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+/* start Home page start*/
+.w3-center {
+    text-align: center;
+    color:#680057;
+}
+.w3-light-purple {
+    background-color:#ccc;
+    text-align: left;
+    font-size:15px;
+
+}
+.about-container
+{
+    background-color:#680057;
+    text-align: left;
+    font-size:15px;
+}
+
+/* pagination*/
+.pagination {
+    display: inline-block;
+    padding-left: 0;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+ 
+.pagination table > tbody > tr > td {
+    display: inline-block;
+}
+ 
+
+.gridview{
+   background-color:#fff;
+   padding:2px;
+   margin:2% auto;
+   
+   
+}
+
+.gridview a{
+    
+    border-radius:50%;
+    padding:5px 10px 5px 10px;
+
+    background-color:#2282d4;
+    color:black;
+    font-size:larger;
+    font-weight:bold;
+    /*-o-box-shadow:1px 1px 1px #111;
+    -moz-box-shadow:1px 1px 1px #111;
+    -webkit-box-shadow:1px 1px 1px #111;
+    box-shadow:1px 1px 1px #111;*/
+    
+}
+
+.gridview a:hover{
+    padding:5px 10px 5px 10px;
+    border-radius:50%;
+
+    background-color:#2282d4;
+    color:black;
+    font-size:large;
+    font-weight:bold;
+}
+
+.gridview span{
+    margin:auto 15%;
+    padding:5px 10px 5px 10px;
+    border-radius:50%;
+
+    background-color:#2282d4;
+    color:black;
+    font-size:larger;
+    font-weight:bold;
+    
+     /*-o-box-shadow:1px 1px 1px #111;
+      -moz-box-shadow:1px 1px 1px #111;
+      -webkit-box-shadow:1px 1px 1px #111;
+      box-shadow:1px 1px 1px #111;*/
+   
+}

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<emails>
+  <UserCreationEmail>
+    <subject>Business Reputation - User Creation </subject>
+    <messageBody>
+      &lt;br&gt;
+      
+      &lt;br&gt;Welcome to the family of Business Reputation Management. &lt;br&gt;&lt;br&gt;
+
+      The user ID &lt;b&gt; USERNAME &lt;/b&gt; is successfully created. We plead you to confirm your e-mail address, by clicking on the following link:&lt;br&gt;
+      USERACTIVATIONLINK
+
+      &lt;br&gt;&lt;br&gt;We appreciate your business and strive to grow it bigger ... more opportunities, higher profits!
+      
+      &lt;br&gt;&lt;br&gt; Please make sure you have read and comply with the Terms of Service available on our website . You are solely responsible to check for changes of the Terms of Service, please follow up and comply with them.
+      For any suggestion, please do write to admin@businessRepute.xyz.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+      Thank you for choosing our Services! &lt;br&gt;
+      Business Reputation Team.
+    </messageBody>
+  </UserCreationEmail>
+  <UserActivationEmail>
+    <subject>Business Reputation - User Activation</subject>
+    <messageBody>
+      &lt;br&gt;
+      Dear Valued User,&lt;br&gt;
+
+      &lt;br&gt;Welcome to the family of Business Reputation Management. Thank you for choosing our Services! &lt;br&gt;
+
+      You have successfully activated your account&lt;br&gt;
+
+      &lt;br&gt;We request you to visit BusinessRepute.xyz for more exciting features.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+      &lt;br&gt;If you have any concerns or questions regarding your new account, you can contact us directly at support@BusinessRepute.xyz, write via the contact form or livechat on our website.
+      
+      &lt;br&gt; Please make sure you have read and comply with the Terms of Service available on our website . You are solely responsible to check for changes of the Terms of Service, please follow up and comply with them.
+      &lt;br&gt; For any suggestion, please do write to admin@businessRepute.xyz.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+      Thank You,&lt;br&gt;
+      Business Reputation Team.
+    </messageBody>
+  </UserActivationEmail>
+  <ResetPasswordEmail>
+    <subject>Business Reputation - Reset Password</subject>
+    <messageBody>
+      &lt;br&gt;
+      Dear Valued User,&lt;br&gt;
+
+      &lt;br&gt;Thank you for choosing our Services! &lt;br&gt; &lt;br&gt;
+
+      Please follow the link to reset your password&lt;br&gt;
+      RESETPASSWORDLINK
+
+      &lt;br&gt;&lt;br&gt;We appreciate your business and strive to grow it bigger ... more opportunities, higher profits!.
+
+      For any suggestion, please do write to admin@businessRepute.xyz.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+      Thank You,&lt;br&gt;
+      Business Reputation Team.
+    </messageBody>
+  </ResetPasswordEmail>
+  <googleSearchEmail>
+    <subject>Business Reputation - Google Review - </subject>
+    <messageBody>&lt;br&gt;
+      Please find attached the results for your search.&lt;br&gt;
+      The attached file contains the details about business and their reviews satisfying your search.&lt;br&gt;&lt;br&gt;
+      
+      We Thank You for using Business Reputation Software search.&lt;br&gt;
+      We request you to visit BusinessRepute.xyz for more exciting features.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+      For any suggestion, please do write to admin@businessRepute.xyz.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+      
+      Thank You,&lt;br&gt;
+      Business Reputation Team.
+  </messageBody> 
+  </googleSearchEmail>
+  <FacebookSearchEmail>
+    <subject>Business Reputation - Facebook Review - </subject>
+    <messageBody>
+      &lt;br&gt;
+      Please find attached the results for your search.&lt;br&gt;
+      The attached file contains the details about business and their reviews satisfying your search.&lt;br&gt;&lt;br&gt;
+
+      We Thank You for using Business Reputation Software search.&lt;br&gt;
+      We request you to visit BusinessRepute.xyz for more exciting features.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+      For any suggestion, please do write to admin@businessRepute.xyz.&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+
+      Thank You,&lt;br&gt;
+      Business Reputation Team.
+    </messageBody>
+  </FacebookSearchEmail>
+</emails>

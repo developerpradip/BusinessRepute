@@ -1,0 +1,146 @@
+INFO  2018-08-25 13:00:20,718   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) sending user registration Email is failed 
+INFO  2018-08-25 13:00:39,374   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:35) 
+Message Thread was being aborted.
+ 
+ Thread was being aborted. 
+ StackTrace   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.UsersAccount.Page_Load(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\UsersAccount.aspx.cs:line 58
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.UsersAccount.Page_Load(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\UsersAccount.aspx.cs:line 58
+INFO  2018-08-25 13:00:47,496   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) http:/QuoteCalcMultOpt.aspx
+INFO  2018-08-25 13:00:47,737   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) exception in btnLogin_Click System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.Login.btnLogin_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\Login.aspx.cs:line 137
+INFO  2018-08-25 13:05:40,414 pradip pradip AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) http:/Main.aspx
+INFO  2018-08-25 13:05:40,889 pradip pradip AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) exception in btnLogin_Click System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.Login.btnLogin_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\Login.aspx.cs:line 137
+INFO  2018-08-25 13:05:57,135 pradip pradip AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) [ValidateUser] Exception Thread was being aborted.
+INFO  2018-08-25 13:05:57,138 pradip pradip AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:35) 
+Message Thread was being aborted.
+ 
+ Thread was being aborted. 
+ StackTrace   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ChangePassword.btnChangePassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ChangePassword.aspx.cs:line 92
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ChangePassword.btnChangePassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ChangePassword.aspx.cs:line 92
+INFO  2018-08-25 13:06:14,438   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) http:/Main.aspx
+INFO  2018-08-25 13:06:14,626   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) exception in btnLogin_Click System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.Login.btnLogin_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\Login.aspx.cs:line 137
+INFO  2018-08-25 13:17:27,494   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) [btnChangePassword_Click] Exception Thread was being aborted.
+INFO  2018-08-25 13:17:27,515   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:35) 
+Message Thread was being aborted.
+ 
+ Thread was being aborted. 
+ StackTrace   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ResetPassword.btnChangePassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ResetPassword.aspx.cs:line 107
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ResetPassword.btnChangePassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ResetPassword.aspx.cs:line 107
+INFO  2018-08-25 13:17:54,301   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) Instructions to Reset password is sent in registered Email.
+INFO  2018-08-25 13:17:54,486   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) [btnChangePassword_Click] Exception Thread was being aborted.
+INFO  2018-08-25 13:17:54,488   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:35) 
+Message Thread was being aborted.
+ 
+ Thread was being aborted. 
+ StackTrace   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ResetPassword.btnChangePassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ResetPassword.aspx.cs:line 103
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ResetPassword.btnChangePassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ResetPassword.aspx.cs:line 103
+INFO  2018-08-25 13:18:31,446   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) [ValidateUser] Exception Thread was being aborted.
+INFO  2018-08-25 13:18:31,449   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:35) 
+Message Thread was being aborted.
+ 
+ Thread was being aborted. 
+ StackTrace   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ResetPassword.btnResetPassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ResetPassword.aspx.cs:line 212
+System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.ResetPassword.btnResetPassword_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\ResetPassword.aspx.cs:line 212
+INFO  2018-08-25 13:18:44,666   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) http:/Main.aspx
+INFO  2018-08-25 13:18:44,896   AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) exception in btnLogin_Click System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.Login.btnLogin_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\Login.aspx.cs:line 137
+INFO  2018-08-25 13:26:01,981 pradip pradip AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) http:/Main.aspx
+INFO  2018-08-25 13:26:02,443 pradip pradip AppHelper.YelpTrace.Write(c:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\YelpTrace.cs:17) exception in btnLogin_Click System.Threading.ThreadAbortException: Thread was being aborted.
+   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url)
+   at BusinessRepute.Login.btnLogin_Click(Object sender, EventArgs e) in c:\Pradip\Practice\C#\Self\BusinessRepute\BusinessRepute\Login.aspx.cs:line 137

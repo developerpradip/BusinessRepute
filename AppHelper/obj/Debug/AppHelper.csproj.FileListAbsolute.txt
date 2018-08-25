@@ -1,0 +1,5 @@
+C:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\bin\Debug\AppHelper.dll
+C:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\bin\Debug\AppHelper.pdb
+C:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\bin\Debug\log4net.dll
+C:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\obj\Debug\AppHelper.dll
+C:\Pradip\Practice\C#\Self\BusinessRepute\AppHelper\obj\Debug\AppHelper.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHelper", "AppHelper\AppHelper.csproj", "{F5CE197B-619F-4CA4-A9D3-2EA3A08EE77B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRepute", "BusinessRepute\BusinessRepute.csproj", "{FD7A4CE8-072C-4F45-B0DB-86F690BDBA22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5CE197B-619F-4CA4-A9D3-2EA3A08EE77B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CE197B-619F-4CA4-A9D3-2EA3A08EE77B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CE197B-619F-4CA4-A9D3-2EA3A08EE77B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CE197B-619F-4CA4-A9D3-2EA3A08EE77B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD7A4CE8-072C-4F45-B0DB-86F690BDBA22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD7A4CE8-072C-4F45-B0DB-86F690BDBA22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD7A4CE8-072C-4F45-B0DB-86F690BDBA22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD7A4CE8-072C-4F45-B0DB-86F690BDBA22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
